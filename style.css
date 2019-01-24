@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#homepage{
+    background: url('images/hongkong.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    overflow-y: hidden;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+    box-shadow: 0 3px 21px 3px #333;
+    z-index: 999;
+    line-height: 65px;
+}
+
+#logo{
+    background-image: url('images/headshot_new.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 35px;
+    border: 1px #BBB solid;
+    height: 70px;
+    width: 70px;
+    margin: 5px 5px 5px 15px;
+    float: left;
+}
+
+#title{
+    text-align: center;
+    float: left;
+    margin: 5px 0px 5px 20px;
+    height: 70px;
+}
+
+.name{
+    font-size: 20pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#firstname{
+    color: rgb(65, 70, 130);
+}
+
+#surname{
+    color: rgb(107, 108, 117);
+}
+
+#navbar ul{
+    display: block;
+    list-style-type: none;
+    float: right;
+    height: 70px;
+    margin: 5px 50px 5px 0;
+}
+
+#navbar li{
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20pt;
+    margin-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    word-spacing: -3px;
+    border-width: 0px 3px 0px 0px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+            to bottom,
+            rgba(128, 128, 128, 0) 5%, rgba(128, 128, 128, 0.2) 40%, rgba(128, 128, 128, 0.3) 50%, rgba(128, 128, 128, 0.2) 60%,  rgba(128, 128, 128, 0) 95%
+        ) 1 100%; 
+}
+
+#navbar li:last-of-type{
+    border-width: 0px;
+    padding-right: 0px;
+}
+
+#navbar a{
+    color: rgb(107, 108, 117);
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    color: rgb(65, 70, 130);
+}
+
+#contentbox{
+    width: 40%;
+    height: 100%;
+    background-color: rgba(65, 70, 130, 0.6);
+    margin-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+}
+
+#textbox1{
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+
+h1{
+    font-size: 40pt;
+    font-weight: normal;
+}
+
+h3{
+    font-weight: normal;
+}
+
+#holiday{
+    background-color: #FFF;
+}
+
+#cruisevid{
+    width: 800px;
+    height: 450px;
+    margin-top: 80px;
+    margin-left: 50px;
+    float: left;
+}
+
+#cruisetext{
+    width: 450px;
+    height: 450px;
+    margin-top: 80px;
+    float: left;
+    background-color: rgb(65, 70, 130);
+}
+
+.holbox{
+    height: 250px;
+    width: 60%;
+    border-bottom: 3px #000 solid;
+    display: inline-block;
+}
