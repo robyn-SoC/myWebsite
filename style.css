@@ -4,25 +4,54 @@
     padding: 0px;
 }
 
-#homepage{
-    background: url('images/hongkong.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: center;
-    overflow-y: hidden;
+html, body {
+    height: 100%;
+    min-height: 100%;
 }
 
-#navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80px;
-    background-color: #FFF;
-    box-shadow: 0 3px 21px 3px #333;
-    z-index: 999;
-    line-height: 65px;
+p {
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
 }
+
+ul{
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+    list-style-type: none;
+}
+
+h1{
+    font-size: 40pt;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+}
+
+h2{
+    font-size: 20pt;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+}
+
+h3{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+}
+
+h4{
+    font-size: 10pt;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF;
+}
+
+/* Header items start here */
 
 #logo{
     background-image: url('images/headshot_new.jpg');
@@ -54,6 +83,18 @@
 
 #surname{
     color: rgb(107, 108, 117);
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #FFF;
+    box-shadow: 0 3px 21px 3px #333;
+    z-index: 999;
+    line-height: 65px;
 }
 
 #navbar ul{
@@ -95,13 +136,23 @@
     color: rgb(65, 70, 130);
 }
 
+/* Homepage styles */
+
+#homepage{
+    background: url('images/hongkong.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    overflow-y: hidden;
+}
+
 #contentbox{
     width: 40%;
     height: 100%;
     background-color: rgba(65, 70, 130, 0.6);
     margin-top: 80px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFF;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF; */
 }
 
 #textbox1{
@@ -110,38 +161,80 @@
     text-align: center;
 }
 
-h1{
-    font-size: 40pt;
-    font-weight: normal;
-}
 
-h3{
-    font-weight: normal;
-}
+/* Holiday Page Styles */
 
 #holiday{
     background-color: #FFF;
 }
 
 #cruisevid{
-    width: 800px;
-    height: 450px;
+    width: 1050px;
+    height: 590px;
     margin-top: 80px;
-    margin-left: 50px;
+    margin-left: 60px;
+    margin-bottom: 10px;
     float: left;
 }
 
 #cruisetext{
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 590px;
     margin-top: 80px;
+    margin-bottom: 10px;
     float: left;
     background-color: rgb(65, 70, 130);
+    text-align: center;
+    padding: 50px 10px 50px 10px;
 }
 
 .holbox{
-    height: 250px;
-    width: 60%;
-    border-bottom: 3px #000 solid;
-    display: inline-block;
+    height: 330px;
+    width: 342px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(65, 70, 130);
+    text-align: center;
 }
+
+.holbox p {
+    font-size: 8pt;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF; 
+}
+
+.firstofline{
+    margin-left: 60px;
+}
+
+/* Photography Page Styles */
+
+#photography{
+    background-color: #FFF;
+}
+
+#gifbox{
+    height: 100%;
+    padding-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    background-color: rgb(65, 70, 130);
+}
+
+#portfolio{
+    float: left;
+    /* margin-left: auto;
+    margin-right: auto; */
+    height: 100%;
+}
+
+#photoblurb{
+    float: left;
+    text-align: center;
+    width: 27%;
+    padding: 40px 10px 40px 10px;
+}
+
