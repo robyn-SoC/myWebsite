@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -7,19 +9,18 @@
 html, body {
     height: 100%;
     min-height: 100%;
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
     font-size: 10pt;
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
 }
 
 ul{
     font-size: 10pt;
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
     list-style-type: none;
 }
@@ -27,27 +28,23 @@ ul{
 h1{
     font-size: 40pt;
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
 }
 
 h2{
     font-size: 20pt;
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
 }
 
 h3{
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
 }
 
 h4{
     font-size: 10pt;
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF;
 }
 
@@ -74,7 +71,6 @@ h4{
 
 .name{
     font-size: 20pt;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #firstname{
@@ -107,7 +103,6 @@ h4{
 
 #navbar li{
     float: left;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20pt;
     margin-left: 10px;
     padding-right: 10px;
@@ -136,6 +131,10 @@ h4{
     color: rgb(65, 70, 130);
 }
 
+#navbar a.active{
+    color: rgb(65, 70, 130);
+}
+
 /* Homepage styles */
 
 #homepage{
@@ -151,14 +150,78 @@ h4{
     height: 100%;
     background-color: rgba(65, 70, 130, 0.6);
     margin-top: 80px;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFF; */
 }
 
 #textbox1{
     position: relative;
     top: 300px;
     text-align: center;
+}
+
+/* Job History styles */
+
+#jobcontainer{
+    padding: 90px 60px 10px 60px;
+    height: 100%;
+    width: 100%;
+    border: #333 1px solid;
+}
+
+.jobbox{
+    height: 600px;
+    width: 19.2%;
+    margin-left: 10px;
+    float: left;
+    background-color: rgb(65, 70, 130);
+    text-align: center;
+}
+
+.jobbox h3{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.jobbox p{
+    padding: 10px 5px 0px 5px;
+}
+
+#ajr{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    padding: 30px;
+}
+
+#ai{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    padding: 30px 0px;
+}
+
+#tsl{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    display: block;
+    margin: auto;
+    padding: 0px 7px;
+}
+
+#threeccc{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    padding: 40px 30px;
+}
+
+#premmot{
+    height: 45%;
+    width: 100%;
+    background-color: #FFF;
+    display: block;
+    margin: auto;
+    padding: 55px 5px;
 }
 
 
@@ -185,11 +248,11 @@ h4{
     float: left;
     background-color: rgb(65, 70, 130);
     text-align: center;
-    padding: 50px 10px 50px 10px;
+    padding: 20px 10px 50px 10px;
 }
 
 .holbox{
-    height: 330px;
+    height: 350px;
     width: 342px;
     float: left;
     margin-left: 10px;
@@ -202,8 +265,8 @@ h4{
 .holbox p {
     font-size: 8pt;
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FFF; 
+    padding: 5px 3px 0px 3px;
 }
 
 .firstofline{
@@ -214,6 +277,7 @@ h4{
 
 #photography{
     background-color: #FFF;
+    overflow-y: hidden; 
 }
 
 #gifbox{
@@ -226,8 +290,6 @@ h4{
 
 #portfolio{
     float: left;
-    /* margin-left: auto;
-    margin-right: auto; */
     height: 100%;
 }
 
@@ -236,5 +298,10 @@ h4{
     text-align: center;
     width: 27%;
     padding: 40px 10px 40px 10px;
+}
+
+#photoblurb li{
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
